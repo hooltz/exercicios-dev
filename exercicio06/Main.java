@@ -38,6 +38,9 @@ public class Main {
                     break;
                 case 4:
                     break;
+                default:
+                    System.out.println("Codigo invalido.");
+                    break;
             }
         } while (op != 4);
     }
