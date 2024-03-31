@@ -26,7 +26,7 @@ public class Main {
                 case 1:
                     System.out.println(" ");
                     for (Produto produto : produtos) {
-                        System.out.println("| Codigo: " + produto.getCodigo() + " | Nome: " + produto.getNome() + " | Quantidade: " + produto.getQuantidade() + " | Preco: R$" + produto.getPreco() + " |");
+                        System.out.println("| Codigo: " + produto.getCodigo() + " | Nome: " + produto.getNome() + " | Quantidade: " + produto.getQuantidade() + " | Preco: R$" + produto.getPreco() + " | Valor total: R$" + produto.getQuantidade() * produto.getPreco() + " |");
                     }
                     break;
                 case 2:
@@ -62,7 +62,7 @@ public class Main {
                 case 3:
                     System.out.println(" ");
                     for (Produto p : produtos) {
-                        System.out.println("| Codigo: " + p.getCodigo() + " | Nome: " + p.getNome() + " | Quantidade: " + p.getQuantidade() + " | Preco: R$" + p.getPreco() + " |");
+                        System.out.println("| Codigo: " + p.getCodigo() + " | Nome: " + p.getNome() + " | Quantidade: " + p.getQuantidade() + " | Preco: R$" + p.getPreco() + " | Valor total: R$" + p.getQuantidade() * p.getPreco() + " |");
                     }
                     System.out.println(" ");
                     System.out.println("---ATUALIZANDO PRODUTO---");
@@ -124,7 +124,7 @@ public class Main {
                 case 4:
                     System.out.println(" ");
                     for (Produto p : produtos) {
-                        System.out.println("| Codigo: " + p.getCodigo() + " | Nome: " + p.getNome() + " | Quantidade: " + p.getQuantidade() + " | Preco: R$" + p.getPreco() + " |");
+                        System.out.println("| Codigo: " + p.getCodigo() + " | Nome: " + p.getNome() + " | Quantidade: " + p.getQuantidade() + " | Preco: R$" + p.getPreco() + " | Valor total: R$" + p.getQuantidade() * p.getPreco() + " |");
                     }
                     System.out.println(" ");
                     System.out.println("---REMOVENDO PRODUTO---");
